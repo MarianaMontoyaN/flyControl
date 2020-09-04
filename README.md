@@ -4,6 +4,8 @@ Desktop application written in python 3.7 (necessary to run the application), co
 
 The second part controls the reception of luggage on a flight. Each package cannot exceed the load capacity of the plane, nor exceed 500 kg. The price of the package is calculated depending on its weight, it is delivered in colombian pesos and in dollars, the TMR is updated by searching the web for the current value. There are three flights available for shipping.
 
+The project is structured with Object Oriented Programming, where the flights and packages are modeled as classes. The following Python 3 libraries are used: Tkinter for the graphical interface, sqlite3 for the database, selenium for webscraping, unittest and pyunitreport for the unit tests and their report.
+
 ## SETUP
 
 The requirements to run the application must be installed.

@@ -131,6 +131,12 @@ class view():
             messagebox.showwarning('ERROR', 'Ingrese un valor válido')
             return
 
+        if distance <= 0 or days <= 0:
+            messagebox.showwarning('ERROR', 'Ingrese un valor válido')
+            self.distance.delete(0, END)
+            self.days.delete(0, END)
+            return
+
         self.distance.delete(0, END)
         self.days.delete(0, END)
 
@@ -159,7 +165,7 @@ class view():
             self.weight.delete(0,END)
             return
 
-        if weight == 0:
+        if weight <= 0:
             messagebox.showwarning('ERROR', 'Ingrese un valor válido')
             self.weight.delete(0,END)
             return

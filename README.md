@@ -22,7 +22,7 @@ python index.py
 
 It is necessary to have version 85 of the Google Chrome browser and run the application on the Windows operating system, if any of the above requirements are not met, the baggage price will be calculated with TMR = 3500
 
-## DATA BASE
+## DATABASE
 
 sqlite3 database, when executing the application for the first time, 30 random packages are generated for each flight.
 
